@@ -10,16 +10,15 @@ let customers = [
     {id:9, name:"Ashlie Wozencraft", age:23, address:{city:"Espinosa", street:"78 Pepper Wood Terrace", house:11}, newsLetter: false},
     {id:10, name:"Jonas Tungate", age:83, address:{city:"Padangulaktanding", street:"224 Manley Drive", house:49}, newsLetter: true}
 ]
-
-function isAddress(address) {
+function isAddress(address) {    
     //TODO
 }
 
-function isCustomer(name, age, address, newsLetter) {
+function isCustomer(name, age, address, newsLetter) {    
+    //TODO
+}
+function modifyCustomer (customer){
     //TODO
 }
 
-function addCustomer(name, age, address, newsLetter) {
-    //TODO
-}
-module.exports = addCustomer;
+module.exports = modifyCustomer;

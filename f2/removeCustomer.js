@@ -12,6 +12,6 @@ let customers = [
 ]
 
 function removeCustomer(id) {
-    //TODO    
+    //TODO
 }
 module.exports = removeCustomer;

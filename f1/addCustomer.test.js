@@ -11,13 +11,14 @@ let customers_test = [
     {id:9, name:"Ashlie Wozencraft", age:23, address:{city:"Espinosa", street:"78 Pepper Wood Terrace", house:11}, newsLetter: false},
     {id:10, name:"Jonas Tungate", age:83, address:{city:"Padangulaktanding", street:"224 Manley Drive", house:49}, newsLetter: true}
 ]
+
 let customers;
 const t1 = {id:11,name:"Kiss Béla",age:18, address:{city:"Budapest",street:"Arany János út",house:11}, newsLetter: false}
-const t2 = {id:12,name:"Nagy Enikő",age:45, address:{city:"Szeged",street:"Eszterházy körút",house:65}, newsLetter: true}
-const t3 = {id:13,name:"Közepes Ernő",age:25, address:{city:"Kecskemét",street:"Fogatlan bácsi liget",house:100}, newsLetter: true}
+const t2 = {id:11,name:"Nagy Enikő",age:45, address:{city:"Szeged",street:"Eszterházy körút",house:65}, newsLetter: true}
+const t3 = {id:11,name:"Közepes Ernő",age:25, address:{city:"Kecskemét",street:"Fogatlan bácsi liget",house:100}, newsLetter: true}
 
 beforeEach(() => {
-    customers = [
+    customers_test = [
         {id:1, name:"Lannie Huddlestone", age:71, address:{city:"Kuala Terengganu", street:"7678 5th Parkway", house:177}, newsLetter: false},
         {id:2, name:"Filip Eslie", age:43, address:{city:"Hingatungan", street:"3 Farwell Lane", house:148}, newsLetter: true},
         {id:3, name:"Tally Birchett", age:54, address:{city:"Ciudad del Este", street:"03 Marcy Drive", house:155}, newsLetter: false},
@@ -30,7 +31,6 @@ beforeEach(() => {
         {id:10, name:"Jonas Tungate", age:83, address:{city:"Padangulaktanding", street:"224 Manley Drive", house:49}, newsLetter: true}
     ];
 });
-
 
 test('addCustomers test 1',() => {
     customers_test.push(t1)
